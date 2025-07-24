@@ -18,7 +18,7 @@ export const Books = () => {
             <div className="book-list">
                 {books.map(book => (
                     <div key={book.id} className="book-item">
-                        <Link to={`/books/${book.id}`}>
+                        <Link to={`/book/${book.id}`}>
                             <img src={book.image} alt={book.title} />
                         </Link>
                         <h3>{book.title}</h3>

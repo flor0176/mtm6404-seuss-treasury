@@ -69,7 +69,7 @@ nav {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-
+  justify-content: center;
 }
 
 /* Mobile */
@@ -95,6 +95,7 @@ nav {
 }
 
 .book-image {
+
   max-width: 600px;
   height: auto;
   border-radius: 4px;
@@ -105,6 +106,12 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.book-info {
+  max-width: 600px;
 }
 
 .quotes-list {
